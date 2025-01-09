@@ -23,7 +23,7 @@ logger = logging.getLogger(__name__)
 
 
 # Setup page.
-about = """This is a basic Image Classification model used to identify 15 different animals. The model leverages *EfficientNet_B0* pytorch model trained on 1944 images of 15 distinct animals *[Bear, Bird, Cat, Cow, Deer, Dog, Dolphin, Elephant, Giraffe, Horse, Kangaroo, Lion, Panda, Tiger, Zebra]*. This app is build in association with *Unified Mentor* for machine learning project submition."""
+about = """This is a basic Image Classification model used to identify 15 different animals. The model leverages *EfficientNet_B0* pytorch model trained on 1944 images of 15 distinct animals *[Bear, Bird, Cat, Cow, Deer, Dog, Dolphin, Elephant, Giraffe, Horse, Kangaroo, Lion, Panda, Tiger, Zebra]*. The app's prediction/classification can be inaccurate due to training on inadequate data, and can be improved by training on larger dataset."""
 
 st.set_page_config(page_title="Fine-Tuned Animal Classifier",
                    page_icon="🐱🦓🐯", menu_items={"About": f"{about}"})
